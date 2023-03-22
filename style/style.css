@@ -26,7 +26,7 @@
    padding: 10px;
 }
 
-
+/*main container*/
 
 .container{
     
@@ -55,11 +55,13 @@
 .flex-container{
     justify-content: center;
     margin: 20px auto;
-    width: 70%;
+    width: 650px;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
+
 .card{
     margin: 15px 7px 0 ;
     border: 1px solid #e7e7e7;
@@ -100,16 +102,19 @@
 .product-description del {
     color: #8b8a8a;
 }
+/*footer*/
 
 .footer{
     display:flex;
     justify-content: space-around;
-   
+    height:100px;
     background-color:#1a1a1a ;
 }
+
 .color-white{
     color:white;
 }
+
 .footer-description  h4 {
    margin: 10px 5px 0 ; 
    font-size: 13px;
