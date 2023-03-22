@@ -5,12 +5,51 @@
 }
 
 .container{
+    
     width: 70%;
     margin:0 auto;
     
 }
 
+
+
 .container h3, p{
     text-align: center;
+    
+}
+.m-top{
+    margin-top: 60px;
+}
+.flex-container{
+    display:flex;
+}
+.card{
+    background-color: gray;
+    height:340px;
+    display:flex;
+    flex-direction: column;
+}
+.card img{
+    width: 200px;
 }
 
+.product-description{
+     margin-left:10px;    
+}
+
+.product-description p{
+    text-align: start;
+    font-size: 11px;
+}
+
+.product-description h6{
+  font-size: 9px;
+}
+
+.product-description span{
+    color:red;
+    font-size: 10px;
+}
+.product-description del {
+    color: black;
+}
