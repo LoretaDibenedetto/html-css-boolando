@@ -10,7 +10,7 @@
 .header{
     display:flex;
     justify-content: space-around;
-    background-color: orange;
+    background-color:#ff6900 ;
 }
 
 .navbar li{
@@ -99,4 +99,11 @@
 }
 .product-description del {
     color: #8b8a8a;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+   
+    background-color:#1a1a1a ;
 }
